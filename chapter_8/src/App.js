@@ -44,6 +44,7 @@ class Header extends Component {
                         </Navbar.Collapse>
                     </Navbar>
                     <Routes>
+                        <Route path="/github/user/:login/:id" component={GitHubUser} /> 
                         <Route path="/github" element={<GitHub />} />
                         <Route exact path="/" element={<Home />} />
                         <Route path="/*" element={<NotFound />} />
