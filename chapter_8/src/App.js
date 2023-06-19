@@ -3,6 +3,7 @@ import Products from './Products';
 import { Jumbotron, Button } from 'react-bootstrap';
 import UserForm from './UserForm'
 import GitHub from './GitHub';
+import GitHubUser from './GitHubUser'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 class App extends Component {
